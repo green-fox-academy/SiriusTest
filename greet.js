@@ -2,8 +2,8 @@
 
 const greet = function() {
     const greet = function(toPrint) {
-        console.log(toPrint);
-    }
+        console.log(toPrint, 'from the parameter');
+    };
 
     return {
     greet
@@ -11,4 +11,4 @@ const greet = function() {
 };
 
 const app = greet();
-app.greet('Greetings')
+app.greet('Greetings');

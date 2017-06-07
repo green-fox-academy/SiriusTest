@@ -1,8 +1,8 @@
 'use strict';
 
 const greet = function() {
-    const greet = function(toPrint) {
-        console.log(toPrint);
+    const greet = function(toPrint, name) {
+        console.log(toPrint, name);
     }
 
     return {
@@ -11,4 +11,4 @@ const greet = function() {
 };
 
 const app = greet();
-app.greet('Greetings')
+app.greet('Greetings', 'Fanni')

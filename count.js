@@ -1,8 +1,8 @@
 'use strict';
 
 const CreateCount = function() {
-    const count = (item) => {
-        console.log('Counting the countles ' + item);
+    const count = (year, month) => {
+        console.log(year, month);
     };
 
     return {
@@ -11,4 +11,4 @@ const CreateCount = function() {
 };
 
 const counter = CreateCount();
-counter.count('apple');
+counter.count(1987, 11);

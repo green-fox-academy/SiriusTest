@@ -1,14 +1,14 @@
 'use strict';
 
 const greet = function() {
-    const myname = function(name) {
-        console.log(name);
+    const greet = function(toPrint) {
+        console.log(toPrint);
     }
-    
+
     return {
-    myname
+    greet
     };
 };
 
 const app = greet();
-app.myname('Fanni')
+app.greet('Greetings')

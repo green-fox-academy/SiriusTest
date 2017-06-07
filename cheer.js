@@ -1,10 +1,10 @@
 'use strict';
 
 class Cheer {
-    cheering(who) {
-        console.log('Szia ' + who);
-    };
+    cheering(language) {
+        console.log('Hey ' + language);
+    }
 };
 
 const cheer = new Cheer();
-cheer.cheering('Csapat');
+cheer.cheering('JavaScript');

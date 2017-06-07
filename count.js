@@ -1,8 +1,8 @@
 'use strict';
 
 const CreateCount = function() {
-    const count = (ages) => {
-        console.log(ages);
+    const count = (month) => {
+        console.log(month);
     };
 
     return {
@@ -11,4 +11,4 @@ const CreateCount = function() {
 };
 
 const counter = CreateCount();
-counter.count('24, 26, 29');
+counter.count('10');

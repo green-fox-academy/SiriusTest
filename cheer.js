@@ -2,7 +2,7 @@
 
 class Cheer {
     cheering(language) {
-        console.log('Hey ' + language);
+        console.log('Cheer for the ' + language);
     }
 };
 
